@@ -1,0 +1,20 @@
+{
+    "short_name": "Mastermind",
+    "name": "Word Mastermind",
+    "icons": [
+      {
+        "src": "./images/icons-192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "./images/icons-512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "./",
+    "background_color": "#1a1a1d",
+    "display": "standalone",
+    "theme_color": "#1a1a1d"
+  }

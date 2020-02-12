@@ -1,0 +1,1 @@
+export const didTheyWin = (result, length, winKey) => result.filter(char => char === winKey).length === parseInt(length)

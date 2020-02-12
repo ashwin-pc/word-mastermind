@@ -1,0 +1,101 @@
+* {
+	box-sizing: border-box;
+}
+
+:root {
+	--color1: #1a1a1d;
+	--color2: #4e4e50;
+	--color3: #6f2232;
+	--color4: #950740;
+	--color5: #c3073f;
+}
+
+html, body {
+	position: relative;
+	height: 100%;
+}
+
+body {
+	background-color: var(--color1);
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Squada One', "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+a {
+	color: rgb(0,100,200);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: rgb(0,80,160);
+}
+
+label {
+	display: block;
+}
+
+input, button, select, textarea {
+	font-family: inherit;
+	font-size: inherit;
+	padding: 0.4em;
+	margin: 0 0 0.5em 0;
+	border: 1px solid var(--color5);
+	border-radius: 3px;
+}
+
+input {
+	background: transparent;
+	border: none;
+	border-bottom: 3px solid var(--color2);
+	width: 100%;
+	color: white;
+	transition: all 0.2s ease-in-out;
+}
+
+input:focus,
+input:active {
+	border-color: var(--color5);
+	outline: none;
+}
+
+input:disabled {
+	border-color: var(--color2);
+	color: var(--color2);
+}
+
+input[type="range"] {
+	height: 0;
+}
+
+button {
+	color: white;
+	padding: 10px 20px;
+	background-color: transparent;
+	border-radius: 3px;
+	border: 2px solid var(--color5);
+	outline: none;
+	transition: all 0.1s ease-in-out;
+}
+
+button:disabled {
+	color: var(--color2);
+	border-color: var(--color2);
+}
+
+button:not(:disabled):active {
+	border-color: var(--color4);
+	background-color: var(--color4);
+}
+
+button:focus,
+button:hover {
+	border-color: var(--color5);
+	background-color: var(--color5);
+}
